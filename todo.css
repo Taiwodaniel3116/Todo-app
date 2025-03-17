@@ -1,8 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 *{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: poppins;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 button {
   font-family: poppins;
@@ -12,6 +16,7 @@ button {
   text-align: center;
   margin-bottom: 2rem;
   color: #fff;
+  font-weight: bold;
 }
 .container {
   width: 100%;
@@ -32,6 +37,7 @@ button {
 .todo-list {
   text-align: center;
   padding-bottom: 20px;
+  font-weight: bold;
 }
 .input-addbtn-wrapper {
   display: flex;
@@ -47,6 +53,7 @@ button {
   outline-color: #4e4b4b;
   caret-color: #000;
   border: 1px solid grey;
+  font-weight: bold;
 }
 .todo-input::placeholder {
   color: #000;
@@ -56,6 +63,8 @@ button {
   padding: 10px 20px;
   border: 2px solid black;
   border-radius: 10px;
+  color: #000;
+  font-weight: bold;
 }
 .add-todo-btn {
   background-color: cornflowerblue;
@@ -80,6 +89,7 @@ button {
   padding-left: 45px;
   cursor: pointer;
   position:  relative;
+  font-weight: bold;
   /* display: inline-flex; */
 }
 .output-tag::before {
