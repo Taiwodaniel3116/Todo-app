@@ -16,7 +16,7 @@ button {
 .container {
   width: 100%;
   min-height: 100dvh;
-  background: linear-gradient(135deg, #153677, #4e085f);
+  background: linear-gradient(135deg, #153677, #4e085f );
   padding: 2rem;
 }
 .todo-wrapper{

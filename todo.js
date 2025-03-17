@@ -13,16 +13,11 @@ function addTask() {
     outputTag.innerHTML = todoInput.value;
     outputTag.classList.add('output-tag');
 
-  //  const calendarOutput = document.createElement('li');
-  //   calendarOutput.innerHTML = `(${calendar.value})`;
-  //   calendarOutput.classList.add('calendar');
-
     const delBtn = document.createElement('button');
     delBtn.innerHTML = 'Delete Task💥';
     delBtn.classList.add('del-btn');
 
     todoOutputWrapper.appendChild(outputTag);
-    // outputTag.appendChild(calendarOutput);
     outputTag.appendChild(delBtn);
 
     todoInput.value = '';
